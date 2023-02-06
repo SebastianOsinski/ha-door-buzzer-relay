@@ -1,0 +1,20 @@
+{
+  "domain": "door_buzzer_relay",
+  "name": "Door Buzzer Relay",
+  "integration_type": "device",
+  "config_flow": true,
+  "documentation": "https://github.com/SebastianOsinski/ha-door-buzzer-relay",
+  "requirements": [
+    "py_lcus_relay @ git+https://github.com/SebastianOsinski/pyLCUSRelay.git@0.1.0"
+  ],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@SebastianOsinski"
+  ],
+  "iot_class": "assumed_state",
+  "version": "0.1.0",
+  "issue_tracker": "https://github.com/SebastianOsinski/ha-door-buzzer-relay/issues"
+}
