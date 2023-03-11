@@ -29,7 +29,6 @@ async def async_setup_entry(
 
 class BuzzerLock(LockEntity):
     def __init__(self, buzzer: Buzzer, config) -> None:
-        self._attr_supported_features = LockEntityFeature.OPEN
         self._attr_unique_id = "buzzer_door"
         self._buzzer = buzzer
         self._config = config
